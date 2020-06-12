@@ -2,7 +2,7 @@ import requests  # noqa We are just importing this to prove the dependency insta
 
 
 def main():
-    payload = {'name':'Kit Plummer', 'username': 'kitplummer'}
+    payload = {'name':'Taylor Wentzel', 'username': 'taylorwentzel'}
     r = requests.post('https://ghatracker.herokuapp.com/', json=payload)
 
 
